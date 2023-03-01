@@ -1,0 +1,108 @@
+body {
+    background: linear-gradient(to right, rgb(131, 13, 13), rgb(0, 0, 0));
+}
+
+* {
+    box-sizing: border-box;
+}
+
+h1{
+    text-align: center;
+    font-family: Lucida Handwriting;
+    background: linear-gradient(7deg, #d92424, #36232300);
+    color: white;
+    font-size: 50px;
+    font-family: 'Bungee Spice', cursive;
+    font-family: 'Gajraj One', cursive;
+    font-family: 'Lobster', cursive;
+}
+
+h2{
+    font-family: 'Lobster';
+    font-style: normal;
+    font-weight: 400;
+    font-display: swap;
+    background: linear-gradient(7deg, #d92424, #36232300);
+    color: white;
+    font-size: 35px;
+
+}
+
+p{
+    font-family: algerian;
+    color: white;
+    font-size: 20px;
+}
+
+
+.columna {
+    float: left;
+    width: 33%;
+    padding-right: 5px;
+}
+
+.fila::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+img {
+    /* Para que sea responsiva */
+    width: 100%;
+}
+
+.columna {
+    text-align: center;
+}
+
+h3{
+    text-align: center;
+    font-family: algerian;
+    font-size: 20px;
+    color: white;
+}
+
+a{
+    text-align: center;
+    font-family: algerian;
+    font-size: 20px;
+    color: black;
+}
+
+.container{
+    text-align: center;
+    font-family: algerian;
+    color: white;
+    font-size: 20px;
+}
+
+.contenedor-1{
+    width: 90%;
+    max-width: 1200px;
+}
+
+.bg.animate{
+    width: 100px;
+    height: 100vh;
+}
+
+.banner_img{
+    animation: movimiento 2.5s linear infinite;
+}
+
+.banner_img img{
+    display: block;
+}
+
+@keyframes movimiento{
+    0%{
+        transform: translateY(0);
+    }
+    50%{
+        transform: translateY(30px);
+    }
+    100%{
+        transform: translateY(0);
+    }
+}
